@@ -1,5 +1,7 @@
 class Rover {
-   // Write code here!
+   constructor(position){
+      this.position = position
+   }
 }
 
 module.exports = Rover;

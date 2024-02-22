@@ -6,8 +6,9 @@ const Command = require('../command.js');
 //       However, do NOT edit the grading tests for any reason and make sure to un-comment out your code to get the autograder to pass.
 
 
-describe("Rover class", function() {
-
-  // 7 tests here!
-
+describe("Rover class", function () {
+  const testRover = new Rover(1432);
+  it("has a key 'position' with a number value", function () {
+    expect(typeof testRover.position).toBe('number')
+  })
 });
